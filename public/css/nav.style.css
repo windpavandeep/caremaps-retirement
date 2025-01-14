@@ -1,0 +1,240 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #AEACAC;
+}
+
+.username-text {
+    font-size: 18px;
+    font-family: 'Serif Trial Regular';
+}
+
+.logo-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.logo-icon {
+    height: 40px;
+}
+
+.avatar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+.avatar-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #979797;
+}
+
+.slider-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://foodfitdiet.com/design/images/homepage/home1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 359px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+.title-bg {
+    font-size: 48px;
+    font-family: 'Serif Trial Regular';
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.title-sm {
+    font-size: 24px;
+    font-family: 'Serif Trial Regular';
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.input-item {
+    display: flex;
+    flex-direction: column;
+    height: 78px;
+    border-radius: 50px;
+    width: 220px;
+}
+
+.input-field {
+    border: unset;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 19px;
+    margin-top: 38px;
+}
+
+.badge-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 5px;
+    column-gap: 6px;
+}
+
+.badge-item {
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    background: #bababa;
+}
+
+.input-item-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-search {
+    border: unset;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.input-search:focus {
+    outline: unset;
+}
+
+.green-text-container {
+    background-color: #B6F3D1;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 10px;
+    column-gap: 16px;
+    justify-content: space-between;
+}
+
+.text-sm {
+    font-size: 16px;
+}
+
+.rec-text {
+    color: #0E6735;
+}
+
+.arrow-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 210px;
+}
+
+.item-img {
+    width: 233px;
+    height: 174px;
+}
+
+.card-container {
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.card-container:first-child {
+    margin-top: 0px;
+}
+
+.card-container:hover {
+    border: 1px solid #FE8100;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.text-title {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-md {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-container {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    max-width: 100%;
+}
+
+.section-container .row {
+    width: 100%;
+}
+
+.footer {
+    background-color: #B9E3CC;
+    height: 282px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+
+.p-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-p {
+    color: #1E1E1E;
+    font-size: 14px;
+    width: 47%;
+}
+
+.right-text {
+    width: 20%;
+    margin-left: 38px;
+}
+
+.map-img {
+    height: auto;
+    width: 100%;
+}
